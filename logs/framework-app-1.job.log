@@ -1,0 +1,149 @@
+
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-pip-whl python3-setuptools-whl python3.10-venv
+The following NEW packages will be installed:
+  python3-pip-whl python3-setuptools-whl python3-venv python3.10-venv
+Need to get 2475 kB of archives.
+After this operation, 2891 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-pip-whl all 22.0.2+dfsg-1ubuntu0.5 [1680 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-setuptools-whl all 59.6.0-1.2ubuntu0.22.04.2 [788 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3.10-venv amd64 3.10.12-1~22.04.9 [5722 B]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-venv amd64 3.10.6-1~22.04.1 [1042 B]
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+Fetched 2475 kB in 1s (2549 kB/s)
+Selecting previously unselected package python3-pip-whl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22792 files and directories currently installed.)
+Preparing to unpack .../python3-pip-whl_22.0.2+dfsg-1ubuntu0.5_all.deb ...
+Unpacking python3-pip-whl (22.0.2+dfsg-1ubuntu0.5) ...
+Selecting previously unselected package python3-setuptools-whl.
+Preparing to unpack .../python3-setuptools-whl_59.6.0-1.2ubuntu0.22.04.2_all.deb ...
+Unpacking python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.2) ...
+Selecting previously unselected package python3.10-venv.
+Preparing to unpack .../python3.10-venv_3.10.12-1~22.04.9_amd64.deb ...
+Unpacking python3.10-venv (3.10.12-1~22.04.9) ...
+Selecting previously unselected package python3-venv.
+Preparing to unpack .../python3-venv_3.10.6-1~22.04.1_amd64.deb ...
+Unpacking python3-venv (3.10.6-1~22.04.1) ...
+Setting up python3-setuptools-whl (59.6.0-1.2ubuntu0.22.04.2) ...
+Setting up python3-pip-whl (22.0.2+dfsg-1ubuntu0.5) ...
+Setting up python3.10-venv (3.10.12-1~22.04.9) ...
+Setting up python3-venv (3.10.6-1~22.04.1) ...
+  Downloading duckdb-1.2.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (20.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.2/20.2 MB 44.0 MB/s eta 0:00:00
+  Downloading pandas-2.2.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 63.5 MB/s eta 0:00:00
+  Downloading pyarrow-19.0.1-cp310-cp310-manylinux_2_28_x86_64.whl (42.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 38.4 MB/s eta 0:00:00
+  Downloading numpy-2.2.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.4/16.4 MB 72.0 MB/s eta 0:00:00
+  Downloading python_dotenv-1.1.0-py3-none-any.whl (20 kB)
+  Downloading yq-3.4.3-py3-none-any.whl (18 kB)
+  Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 KB 59.1 MB/s eta 0:00:00
+  Downloading pyiceberg-0.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (836 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 837.0/837.0 KB 16.8 MB/s eta 0:00:00
+  Downloading boto3-1.37.24-py3-none-any.whl (139 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.6/139.6 KB 28.0 MB/s eta 0:00:00
+  Downloading google_cloud_storage-3.1.0-py2.py3-none-any.whl (174 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 174.9/174.9 KB 16.2 MB/s eta 0:00:00
+  Downloading azure_storage_blob-12.25.1-py3-none-any.whl (406 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 407.0/407.0 KB 63.2 MB/s eta 0:00:00
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 KB 53.2 MB/s eta 0:00:00
+  Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 KB 57.9 MB/s eta 0:00:00
+  Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 509.2/509.2 KB 71.2 MB/s eta 0:00:00
+  Downloading argcomplete-3.6.1-py3-none-any.whl (43 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.0/44.0 KB 7.8 MB/s eta 0:00:00
+  Downloading tomlkit-0.13.2-py3-none-any.whl (37 kB)
+  Downloading xmltodict-0.14.2-py2.py3-none-any.whl (10.0 kB)
+  Downloading cachetools-5.5.2-py3-none-any.whl (10 kB)
+  Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 KB 27.4 MB/s eta 0:00:00
+  Downloading pydantic-2.11.1-py3-none-any.whl (442 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 442.6/442.6 KB 67.1 MB/s eta 0:00:00
+  Downloading strictyaml-1.7.3-py3-none-any.whl (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.9/123.9 KB 21.7 MB/s eta 0:00:00
+  Downloading fsspec-2025.3.2-py3-none-any.whl (194 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.4/194.4 KB 36.8 MB/s eta 0:00:00
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+  Downloading mmh3-5.1.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (99 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.2/99.2 KB 14.4 MB/s eta 0:00:00
+  Downloading click-8.1.8-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 KB 9.5 MB/s eta 0:00:00
+  Downloading pyparsing-3.2.3-py3-none-any.whl (111 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.1/111.1 KB 18.1 MB/s eta 0:00:00
+  Downloading tenacity-9.0.0-py3-none-any.whl (28 kB)
+  Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.9/64.9 KB 13.6 MB/s eta 0:00:00
+  Downloading botocore-1.37.24-py3-none-any.whl (13.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.5/13.5 MB 64.3 MB/s eta 0:00:00
+  Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+  Downloading s3transfer-0.11.4-py3-none-any.whl (84 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.4/84.4 KB 17.3 MB/s eta 0:00:00
+  Downloading google_cloud_core-2.4.3-py2.py3-none-any.whl (29 kB)
+  Downloading google_crc32c-1.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (38 kB)
+  Downloading google_api_core-2.24.2-py3-none-any.whl (160 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.1/160.1 KB 38.4 MB/s eta 0:00:00
+  Downloading google_resumable_media-2.7.2-py2.py3-none-any.whl (81 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 81.3/81.3 KB 16.2 MB/s eta 0:00:00
+  Downloading google_auth-2.38.0-py2.py3-none-any.whl (210 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 210.8/210.8 KB 31.2 MB/s eta 0:00:00
+  Downloading isodate-0.7.2-py3-none-any.whl (22 kB)
+  Downloading azure_core-1.32.0-py3-none-any.whl (198 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 198.9/198.9 KB 35.9 MB/s eta 0:00:00
+  Downloading cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl (4.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 66.4 MB/s eta 0:00:00
+  Downloading typing_extensions-4.13.0-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.7/45.7 KB 8.5 MB/s eta 0:00:00
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+  Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.4/128.4 KB 20.2 MB/s eta 0:00:00
+  Downloading cffi-1.17.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (446 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 446.2/446.2 KB 52.7 MB/s eta 0:00:00
+  Downloading proto_plus-1.26.1-py3-none-any.whl (50 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.2/50.2 KB 10.9 MB/s eta 0:00:00
+  Downloading protobuf-6.30.2-cp39-abi3-manylinux2014_x86_64.whl (316 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 316.2/316.2 KB 54.0 MB/s eta 0:00:00
+  Downloading googleapis_common_protos-1.69.2-py3-none-any.whl (293 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 293.2/293.2 KB 32.8 MB/s eta 0:00:00
+  Downloading pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 KB 37.9 MB/s eta 0:00:00
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+  Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+  Downloading typing_inspection-0.4.0-py3-none-any.whl (14 kB)
+  Downloading pydantic_core-2.33.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 64.7 MB/s eta 0:00:00
+  Downloading charset_normalizer-3.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (146 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 146.1/146.1 KB 27.0 MB/s eta 0:00:00
+  Downloading idna-3.10-py3-none-any.whl (70 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 70.4/70.4 KB 12.7 MB/s eta 0:00:00
+  Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.4/166.4 KB 35.1 MB/s eta 0:00:00
+  Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 58.7 MB/s eta 0:00:00
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 KB 12.9 MB/s eta 0:00:00
+  Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.6/117.6 KB 23.1 MB/s eta 0:00:00
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+  Downloading pyasn1-0.6.1-py3-none-any.whl (83 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.1/83.1 KB 16.8 MB/s eta 0:00:00
+Successfully installed annotated-types-0.7.0 argcomplete-3.6.1 azure-core-1.32.0 azure-storage-blob-12.25.1 boto3-1.37.24 botocore-1.37.24 cachetools-5.5.2 certifi-2025.1.31 cffi-1.17.1 charset-normalizer-3.4.1 click-8.1.8 cryptography-44.0.2 duckdb-1.2.1 fsspec-2025.3.2 google-api-core-2.24.2 google-auth-2.38.0 google-cloud-core-2.4.3 google-cloud-storage-3.1.0 google-crc32c-1.7.1 google-resumable-media-2.7.2 googleapis-common-protos-1.69.2 idna-3.10 isodate-0.7.2 jmespath-1.0.1 markdown-it-py-3.0.0 mdurl-0.1.2 mmh3-5.1.0 numpy-2.2.4 pandas-2.2.3 proto-plus-1.26.1 protobuf-6.30.2 pyarrow-19.0.1 pyasn1-0.6.1 pyasn1-modules-0.4.2 pycparser-2.22 pydantic-2.11.1 pydantic-core-2.33.0 pygments-2.19.1 pyiceberg-0.9.0 pyparsing-3.2.3 python-dateutil-2.9.0.post0 python-dotenv-1.1.0 pytz-2025.2 pyyaml-6.0.2 requests-2.32.3 rich-13.9.4 rsa-4.9 s3transfer-0.11.4 six-1.17.0 sortedcontainers-2.4.0 strictyaml-1.7.3 tenacity-9.0.0 tomlkit-0.13.2 typing-extensions-4.13.0 typing-inspection-0.4.0 tzdata-2025.2 urllib3-2.3.0 xmltodict-0.14.2 yq-3.4.3
+All steps completed!
