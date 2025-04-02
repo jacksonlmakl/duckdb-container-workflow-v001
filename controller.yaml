@@ -1,9 +1,15 @@
-schedule: '* * * * *'
+schedule: ''
 s3:
   - name: ''
   - access_key: ''
   - secret_key: ''
 steps:
-  - name: Step 1
+  - name: Create Table
     execute: step1.sql
+    database: core
+  - name: Insert Rows
+    execute: step2.sql
+    database: core
+  - name: Insert Into Postgres
+    execute: step3.sql
     database: core
